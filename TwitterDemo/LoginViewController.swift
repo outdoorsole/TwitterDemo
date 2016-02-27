@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import BDBOAuth1Manager
 
 class LoginViewController: UIViewController {
 
@@ -21,6 +22,8 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func onLoginButton(sender: AnyObject) {
+    }
 
     /*
     // MARK: - Navigation
