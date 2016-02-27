@@ -23,6 +23,9 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func onLoginButton(sender: AnyObject) {
+        let twitterClient = BDBOAuth1SessionManager(baseURL: NSURL(string: "https://api.twitter.com")!, consumerKey: "	ZHafT74bLy7t7i6DqlJp5T4xC"
+            , consumerSecret: "HCEDO18Ofd8eM7By2fIEmfntcI5Vtg1l3NdKMBiODIPawQgHEW")
+        
     }
 
     /*
